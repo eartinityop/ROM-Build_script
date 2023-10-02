@@ -7,7 +7,7 @@ git clone  https://github.com/mcdofrenchfreis/biofrost-kernle-realme-trinket -b 
 
 # Start Build
 source build/envsetup.sh
-lunch awaken_r5x-userdebug
+lunch aosp_r5x-userdebug
 make bacon -j$(nproc --all)
 
 # Upload
