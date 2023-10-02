@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # Sync Trees
-git clone  https://github.com/eartinity/device_realme_r5x device/realme/r5x -b awaken
+git clone  https://github.com/eartinity/device_realme_r5x device/realme/r5x -b pe
 git clone  https://github.com/eartinity/vendor_realme_r5x vendor/realme/r5x -b thirteen
-git clone  https://github.com/Amritorock/kernel_realme_r5x -b OSS kernel/realme/r5x
+git clone  https://github.com/mcdofrenchfreis/biofrost-kernle-realme-trinket -b inline/dynamic kernel/realme/r5x
 
 # Start Build
 source build/envsetup.sh
